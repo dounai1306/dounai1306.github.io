@@ -3,6 +3,17 @@
 
 ## 日常笔记：
 #### 杂记
+ * [xheditor 复制粘贴上传图片](https://github.com/dounai1306/dounai1306.github.io/issues/44)
+ * [nodejs 爬虫](https://github.com/dounai1306/dounai1306.github.io/issues/71)
+ * [设计]( https://github.com/dounai1306/dounai1306.github.io/issues/23)
+
+#### Python 
+ * [防爬虫](https://github.com/dounai1306/dounai1306.github.io/issues/68)
+ * [邮件发送](https://github.com/dounai1306/dounai1306.github.io/issues/59)
+ * [文字转base64](https://github.com/dounai1306/dounai1306.github.io/issues/58)
+ * [百度语音合成](https://github.com/dounai1306/dounai1306.github.io/issues/51)
+ * [邮件发送](https://github.com/dounai1306/dounai1306.github.io/issues/59)
+ * [文字转base64](https://github.com/dounai1306/dounai1306.github.io/issues/58) 
 #### Flex（git仓库：https://github.com/dounai1306/flex）
  * [基础flex布局](https://dounai1306.github.io/flex/flex-1.html)
  * [仿追波大神的flex布局](https://dounai1306.github.io/flex/flex-2.html)
@@ -24,6 +35,10 @@ demo是基于别人V3的栗子升级为V4，很可惜那个网站已经被河蟹
  * [地图](https://dounai1306.github.io/d3/d3-11.html)
 
 #### Vue （git仓库：https://github.com/dounai1306/vue）
-#### React
+ * [vue 国际化](https://github.com/dounai1306/vue/issues/23)
+ * [simditor vue2使用](https://github.com/dounai1306/vue/issues/21)
+
 #### 微信小程序
-#### Three.js
+ * [仅创建者可读写导致update不成功](https://github.com/dounai1306/wxminiprogram/issues/2)
+ * [微信小程序开发过程中的一点记载](https://github.com/dounai1306/wxminiprogram/issues/1)
+
