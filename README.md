@@ -8,6 +8,7 @@
  * [xheditor 复制粘贴上传图片](https://github.com/dounai1306/dounai1306.github.io/issues/44)
 
 ### Python 
+ * [python 爬取微博指定博主微博内容（带定时器， 带邮件发送）](https://github.com/dounai1306/dounai1306.github.io/issues/77)
  * [防爬虫](https://github.com/dounai1306/dounai1306.github.io/issues/68)
  * [邮件发送](https://github.com/dounai1306/dounai1306.github.io/issues/59)
  * [文字转base64](https://github.com/dounai1306/dounai1306.github.io/issues/58)
