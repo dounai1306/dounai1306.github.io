@@ -1,83 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>豆奶的小作坊</title>
-    <style>
-        html, body {
-            width: 100%;
-            height: 100%;
-            padding: 0;
-            margin: 0;
-            color: #333;
-            font-size:16px
-        }
-
-        .flex-parent {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: 100%;
-        }
-
-        .flex-row {
-            flex: 1;
-            display: flex;
-            overflow: hidden;
-
-        }
-
-        .flex-column {
-            background: #fff;
-            flex: 1;
-            overflow: hidden
-        }
-        img.bg{height:100%}
-        .header{
-          position:fixed;
-          top:0;
-          width:100%;
-          height:62px;
-          line-height:62px;
-        
-        }
-        
-        a.logo{color: rgb(32,45,64);text-decoration: none;}
-        .desc{padding: 100px}
-        h1{font-size:56px;line-height:2;}
-        .header a{margin: 0 20px;color:#333}
-        .header a.logo{font-size: 32px;margin: 0 0 0 100px}
-        .text{
-          line-height:2
-        }
-    </style>
-</head>
-<body>
-<div class="header">
-  <a href="https://dounai1306.github.io/" class="logo">Dounai</a>
-  <a href="https://dounai1306.github.io/d3/">D3</a> 
-  <a href="https://github.com/dounai1306/flex">Flex</a> 
-  <a href="https://github.com/dounai1306/react/issues">React</a> 
-  <a href="https://github.com/dounai1306/vue/issues">Vue</a> 
-  <a href="https://github.com/dounai1306/wxminiprogram/issues">小程序</a> 
-  <a href="https://jsfiddle.net/user/dounai/fiddles/">一些demo</a>
-  <a href="https://dounai1306.github.io/other/">奇奇怪怪</a> 
-</div>
-<div class="flex-parent">
-    <div class="flex-row">
-        <div class="flex-column">
-          <div class="desc">
-            <h1>豆奶的小作坊</h1>
-            <p style="color: #666;margin-bottom: 20px">Dounai's small zuofang</p>
-           <p class="text">全新 CODING 涵盖了软件开发从构想到交付的一切所需，使研发团队在云端高效协同，实践敏捷开发与 DevOps，提升软件交付质量与速度。</p>
-          </div>
-           
-        </div>
-        <div class="flex-column">
-           <img src="https://coding-net-production-pp-ci.codehub.cn/0cf3c7a5-797b-4d27-a5a4-3411f6d744c2.png" class="bg">
-        </div>
-    </div>
-</div>
-</body>
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>豆奶的小作坊</title> 
+  <style>
+	html,body {width:100%;height:100%;padding:0;margin:0;color:#333;font-size:16px}
+	.flex-parent {display:flex;flex-direction:column;width:100%;height:100%;}
+	.flex-row {flex:1;display:flex;overflow:hidden;}
+	.flex-column {background:#fff;flex:1;overflow:hidden;position:relative}
+	a {text-decoration:none;}
+	ul,li {list-style:none}
+	img.bg {height:100%}
+	.header {position:fixed;top:0;width:100%;height:62px;line-height:62px;z-index:1}
+	a.logo {color:rgb(32,45,64);text-decoration:none;}
+	.desc {padding:150px 100px 100px}
+	h1 {font-size:56px;line-height:2;font-weight:normal}
+	.header a {margin:0 20px;color:#333}
+	.header a.logo {font-size:32px;margin:0 0 0 100px}
+	.text {line-height:2;margin-bottom:20px}
+	.list {position:absolute;right:100px;top:150px;text-align:right;line-height:3}
+	.list a {color:#fff;text-decoration:none;} 
+	p a {color:rgb(16,31,58);text-decoration:none;} 
+    </style> 
+ </head> 
+ <body> 
+  <div class="header"> 
+   <a href="https://dounai1306.github.io/" class="logo">Dounai</a> 
+   <a href="https://dounai1306.github.io/d3/">D3</a> 
+   <a href="https://github.com/dounai1306/flex">Flex</a> 
+   <a href="https://github.com/dounai1306/react/issues">React</a> 
+   <a href="https://github.com/dounai1306/vue/issues">Vue</a> 
+   <a href="https://github.com/dounai1306/wxminiprogram/issues">小程序</a> 
+   <a href="https://jsfiddle.net/user/dounai/fiddles/">一些demo</a> 
+   <a href="https://dounai1306.github.io/other/">奇奇怪怪</a> 
+  </div> 
+  <div class="flex-parent"> 
+   <div class="flex-row"> 
+    <div class="flex-column"> 
+     <div class="desc"> 
+      <h1>豆奶的小作坊</h1> 
+      <p style="color: #666;margin-bottom: 20px">Dounai's small zuofang</p> 
+      <p class="text">一个不想写代码的前端，一个打杂小达人的前端，一个不太专业的前端，一个人到技术年龄的时刻盼望失业的前端。</p> 
+      <p class="text">这个仓库记录很多很杂的东西，包括但不限于前端、后端，设计、安全等，<a href="https://jsfiddle.net/user/dounai/fiddles/">jsfiddle</a> 中也写了一些小栗子，希望对你们有所帮助~</p> 
+	  <p style="color: #666;margin-bottom: 20px">万物皆对象</p> 
+     </div> 
+    </div> 
+    <div class="flex-column"> 
+     <div class="list"> 
+      <ul> 
+       <li><a href="https://github.com/dounai1306/dounai1306.github.io/issues/71">【FE】NodeJs爬虫</a></li> 
+       <li><a href="https://github.com/dounai1306/dounai1306.github.io/issues/44">【FE】xheditor 复制粘贴上传图片</a></li> 
+       <li><a href="https://dounai1306.github.io/flex/flex-1.html">【FE】基础Flex布局</a></li> 
+       <li><a href="https://dounai1306.github.io/flex/flex-2.html">【FE】仿追波大神的flex布局</a></li> 
+       <li><a href="https://github.com/dounai1306/d3">【FE】D3 V4的一些基础栗子</a></li> 
+       <li><a href="https://github.com/dounai1306/vue/issues/23">【FE】Vue 国际化</a></li> 
+       <li><a href="https://github.com/dounai1306/vue/issues/21">【FE】simditor vue2使用</a></li> 
+       <hr /> 
+       <li><a href="https://github.com/dounai1306/dounai1306.github.io/issues/77">【Python】爬取新浪微博指定博主微博内容，带定时器，带邮件发送</a></li> 
+       <li><a href="https://github.com/dounai1306/dounai1306.github.io/issues/59">【Python】邮件发送</a></li> 
+       <li><a href="https://github.com/dounai1306/dounai1306.github.io/issues/58">【Python】文字转Base64</a></li> 
+       <li><a href="https://github.com/dounai1306/dounai1306.github.io/issues/51">【Python】百度语音合成</a></li> 
+       <hr /> 
+       <li><a href="https://github.com/dounai1306/dounai1306.github.io/issues/68">【安全】前端敏感信息防爬虫</a></li> 
+      </ul> 
+     </div> 
+     <img src="https://coding-net-production-pp-ci.codehub.cn/0cf3c7a5-797b-4d27-a5a4-3411f6d744c2.png" class="bg" /> 
+    </div> 
+   </div> 
+  </div>  
+ </body>
 </html>
